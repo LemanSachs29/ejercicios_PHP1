@@ -1,0 +1,63 @@
+<?php
+// 4. Defina un espacio de nombresVehiculos que contenga una clase Camiony otro
+// espacio de nombres llamado Transporteque contenga una clase Camioneta.
+// Luego, crea instancias de ambas clases para probar cómo se diferencian.
+// 5. Utiliza parent::en una clase hija para llamar al método de la clase padre antes
+// de escribirlo, tal como hicimos con Animaly Perro.
+?>
+
+<?php
+// 1. Defina una claseCoche que tenga las propiedades marca, modelo y año.
+// Agregue un método acelerar()que imprima "El coche está acelerando".
+
+
+class Coche{
+    //Propiedades
+    public $marca;
+    public $modelo;
+    public $año;
+
+    //Metodos
+    public acelerar(){
+        echo "El coche está acelerando.";
+    }
+}
+?>
+
+<?php
+// 2. Crea una claseElectrodomestico con las propiedades nombre y precio. Luego,
+// crea una clase Lavadoraque herede Electrodomesticoy tenga un método lavar().
+
+class Electrodomestico{
+    //Propiedades
+    public $nombre;
+    public $precio;
+}
+
+public class lavadora extends Electrodomestico{
+    //Métodos
+    public lavar(){
+        echo "La lavadora está lavando";
+    }
+}
+?>
+
+<?php
+// 3. Definir una claseAnimal con un método hacerSonido(). Luego, crea una clase
+// Gatoque herede Animaly sobrescribe el método hacerSonido()para que
+// imprima "El gato maúlla".
+
+public class claseAnimal{
+    //Metodos
+    public hacerSonido(){
+
+    }
+}
+
+public class Gato extends claseAnimal{
+    //metodo sobreescrito
+    public hacerSonido(){
+        echo "El gato maulla";
+    }
+}
+?>
