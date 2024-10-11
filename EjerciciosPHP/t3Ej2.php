@@ -15,7 +15,8 @@ $alumnos = array(
 
 foreach($alumnos as $alumno){
        $nombreAlumno = $alumno["Nombre"];
-       $edadAlumno = $alumno["Edad"];
-       foreach()
+       $promedio = ($alumno["Notas"]["Prog"] + $alumno["Notas"]["bd"] + $alumno["Notas"]["LDM"] ) / 3;
+
+        echo "$nombreAlumno promedio: $promedio";
 }
 ?>
