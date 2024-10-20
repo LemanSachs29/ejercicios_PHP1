@@ -10,6 +10,8 @@ echo "<label for="fname">Nombre:</label><br>"
 echo "<input type="text" id="fname" name="fname" value=""><br>"
 
 
+//Sin terminar
+
 
 
 
